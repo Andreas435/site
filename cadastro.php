@@ -31,6 +31,7 @@
         else{
             $_SESSION['msg'] = "E-mail já cadastrado";
             header("Location: cad.php");
+            
         }
     }
     else {
