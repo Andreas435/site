@@ -9,9 +9,9 @@
 
         $comando = "INSERT INTO contas (nome, idade, email, senha) VALUES ('$nome', '$idade', '$email', '$senha');";
         $ex = mysqli_query($con, $comando);
-        header("Locale: principal.php");
+        header("Location: principal.php");
     }
     else {
-        header("Locale: index.php");
+        header("Location: index.php");
     }
 ?>
