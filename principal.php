@@ -14,7 +14,7 @@
     <title>Página principal</title>
 </head>
 <body>
-    <p>Página principal</p>
+    <h1>Página principal</h1>
     <?php
         echo $_SESSION['nome'];
     ?>
