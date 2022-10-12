@@ -16,11 +16,11 @@
             $comando = "INSERT INTO contas (nome, idade, email, senha) VALUES ('$nome', '$idade', '$email', '$senha')";
             $ex = mysqli_query($con, $comando);
             // Pegando apenas o ultimo usuario que foi cadastrado.
-            $comando = "SELECT *  FROM  contas  ORDER BY id DESC Limit 1";
+            $comando = "SELECT * FROM contas ORDER BY id DESC LIMIT 1";
             $result = mysqli_query($con, $comando);
             $res    = mysqli_fetch_assoc($result);
             // Passando as informacoes do ultimo usuario para nossa Session.
-            $_SESSION["id"]    = $res["id"] ; 
+            $_SESSION["id"]    = $res["id"]; 
             $_SESSION["nome"]  = $res["nome"];
             $_SESSION["idade"] = $res["idade"];
             $_SESSION["email"] = $res["email"];
@@ -30,12 +30,12 @@
         }
         else{
             $_SESSION['msg'] = "E-mail já cadastrado";
-            header("Location: index.php");
+            header("Location: cad.php");
         }
     }
     else {
         $_SESSION['msg'] = "Preencha todos os campos";
-        header("Location: index.php");
+        header("Location: cad.php");
         
     }
 ?>

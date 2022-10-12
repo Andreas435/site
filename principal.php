@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if (empty($_SESSION['id'])) {
+        header("Location: index.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,6 +14,11 @@
     <title>Página principal</title>
 </head>
 <body>
-    <p>Página principal</p>
+    <h1>Página principal</h1>
+    <?php
+        echo $_SESSION['nome'];
+    ?>
+    <br>
+    <a href="sair.php">Sair</a>
 </body>
 </html>

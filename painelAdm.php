@@ -1,3 +1,11 @@
+<?php
+    session_start();
+
+    if (!$_SESSION['cargo'] == "administrador") {
+        header("Location: login.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,7 +17,7 @@
 
 <body>
     <div class="" id="">
-        <h1>SEJA BEM VINDO AO PAINEL ADMINISTRAVO</h1>
+        <h1>SEJA BEM-VINDO AO PAINEL ADMINISTRAVO</h1>
         <?php
         include_once("conec.php");
         $sql = "SELECT Nome, Cargo, Idade from contas";
