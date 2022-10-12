@@ -17,6 +17,7 @@
             if($_SESSION["cargo"] == "adm"){
                 header("Location: adm.php");
             }
+            
             else{
                 header("Location: principal.php");
             }
