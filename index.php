@@ -27,6 +27,7 @@
             <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
             <br>
             <input type="submit" value="Cadastrar">
+            
         </form>
         <p><a href="login.php"></a></p>
     </main>
