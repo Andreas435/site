@@ -1,3 +1,11 @@
+<?php
+    session_start();
+
+    if (!$_SESSION['cargo'] == "administrador") {
+        header("Location: login.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

@@ -14,16 +14,22 @@
             $_SESSION["idade"] = $res["idade"];
             $_SESSION["email"] = $res["email"];
             $_SESSION["cargo"] = $res["cargo"];
-            if($_SESSION["cargo"] == "adm"){
+            if($_SESSION["cargo"] == "administrador"){
                 header("Location: adm.php");
             }
             else{
-                
-                header("Location: principal.php");
+                header("Location: index.php");
             }
+        }
+        else {
+            $_SESSION['msg'] = "E-mail ou senha inválido(s)"
+            header("Location: login.php");
         }
 
     }
-
+    else {
+        $_SESSION['msg'] = "Preencha todos os campos";
+        header("Location: login.php");
+    }
 
 ?>

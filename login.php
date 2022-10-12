@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,6 +12,12 @@
 <body>
 <h1>Página de login</h1>
     <main>
+         <p><strong><?php
+            if (isset($_SESSION['msg'])) {
+                echo $_SESSION['msg'];
+                unset($_SESSION['msg']);
+            }
+        ?></strong></p>
         <form method="POST" action="entrar.php">
             <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
             <br>
@@ -18,5 +27,6 @@
         </form>
         <p><a href="login.php"></a></p>
     </main>
+    
 </body>
 </html>
