@@ -13,7 +13,7 @@
         <?php
         include_once("conec.php");
         $sql = "SELECT Nome, Cargo, Idade from contas";
-        $result = mysqli_query($con, $bla);
+        $result = mysqli_query($con, $sql);
         $res    = mysqli_fetch_assoc($result);
         if (isset($res)){
             $contas = "";
