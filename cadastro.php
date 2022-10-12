@@ -36,6 +36,5 @@
     else {
         $_SESSION['msg'] = "Preencha todos os campos";
         header("Location: cad.php");
-        
     }
 ?>
