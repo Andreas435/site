@@ -18,11 +18,11 @@
                 header("Location: adm.php");
             }
             else{
-                header("Location: index.php");
+                header("Location: principal.php");
             }
         }
         else {
-            $_SESSION['msg'] = "E-mail ou senha inválido(s)"
+            $_SESSION['msg'] = "E-mail ou senha inválido(s)";
             header("Location: login.php");
         }
 

@@ -1,5 +1,9 @@
 <?php
     session_start();
+
+    if (isset($_SESSION['id'])) {
+        header("Location: principal.php");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -25,8 +29,8 @@
             <br>
             <input type="submit" value="Entrar">
         </form>
-        <p><a href="login.php"></a></p>
+        <p>Não tem uma conta? <a href="cad.php">Faça seu cadastro</a>.</p>
+        
     </main>
-    
 </body>
 </html>
