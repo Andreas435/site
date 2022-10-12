@@ -1,5 +1,8 @@
 <?php
     session_start();
+    if (empty($_SESSION['id'])) {
+        header("Location: index.php");
+    }
 ?>
 
 <!DOCTYPE html>
@@ -15,5 +18,7 @@
     <?php
         echo $_SESSION['nome'];
     ?>
+    <br>
+    <a href="sair.php">Sair</a>
 </body>
 </html>

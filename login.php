@@ -30,7 +30,6 @@
             <input type="submit" value="Entrar">
         </form>
         <p>Não tem uma conta? <a href="cad.php">Faça seu cadastro</a>.</p>
-        
     </main>
 </body>
 </html>

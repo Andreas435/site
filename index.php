@@ -1,10 +1,3 @@
-<?php
-    session_start();
-
-    if (empty($_SESSION['cargo'])) {
-        header("Location: cad.php");
-    }
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
