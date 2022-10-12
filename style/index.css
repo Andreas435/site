@@ -1,0 +1,23 @@
+body{
+    background:#000;
+    background-image: url("./assets/background1.gif");
+}
+nav{
+    display: flex;
+   /* background:;*/
+    
+}
+
+li{
+    color:white;
+}
+
+a{  text-decoration: none;
+    color:white;
+}
+section.rodape{
+    position:relative;
+    display:flex;
+    background:black;
+    color:white;
+}

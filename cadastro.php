@@ -16,7 +16,7 @@
             $comando = "INSERT INTO contas (nome, idade, email, senha) VALUES ('$nome', '$idade', '$email', '$senha')";
             $ex = mysqli_query($con, $comando);
             // Pegando apenas o ultimo usuario que foi cadastrado.
-            $comando = "SELECT *  FROM  contas  ORDER BY ASC Limit 1";
+            $comando = "SELECT *  FROM  contas  ORDER BY id DESC Limit 1";
             $result = mysqli_query($con, $comando);
             $res    = mysqli_fetch_assoc($result);
             // Passando as informacoes do ultimo usuario para nossa Session.
