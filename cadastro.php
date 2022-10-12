@@ -25,5 +25,6 @@
     else {
         $_SESSION['msg'] = "Preencha todos os campos";
         header("Location: index.php");
+        
     }
 ?>
