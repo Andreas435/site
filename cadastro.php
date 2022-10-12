@@ -27,6 +27,7 @@
             $_SESSION["cargo"] = $res["cargo"];
             // Reencaminhando o usuario para nossa pagina principal.
             header("Location: principal.php");
+            
         }
         else{
             $_SESSION['msg'] = "E-mail já cadastrado";
