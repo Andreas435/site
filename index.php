@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ptbr">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +7,19 @@
     <title>Nosso site</title>
 </head>
 <body>
-    <h1>Página de cadastro</h1>
     <main>
-        <form method="POST" action="cadastro.php">
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
-            <br>
-            <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
-            <br>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
-            <br>
-            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
-            <br>
-            <input type="submit" value="Cadastrar">
-        </form>
-        <p><a href="login.php"></a></p>
+      <nav class="nav">
+        <ul class="nav-url">
+          <h1>
+            <li>
+            <a href="#">
+              Login
+            </a>
+          </li>
+          </h1>
+        </ul>
+        
+      </nav>
     </main>
 </body>
 </html>
