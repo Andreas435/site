@@ -6,12 +6,13 @@
         $idade = $_POST['idade'];
         $email = $_POST['email'];
         $senha = md5($_POST['senha']);
-
         $comando = "INSERT INTO contas (nome, idade, email, senha) VALUES ('$nome', '$idade', '$email', '$senha');";
         $ex = mysqli_query($con, $comando);
         header("Locale: principal.php");
+
     }
     else {
+        
         header("Locale: index.php");
     }
 ?>
