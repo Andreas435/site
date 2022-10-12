@@ -1,6 +1,6 @@
 <?php
-    include_once("conec.php");  
     session_start();
+    include_once("conec.php");  
     if(isset($_POST["email"]) && isset($_POST["senha"])){
         $email  = $_POST["email"];
         $senha  = md5($_POST["senha"]);
