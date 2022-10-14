@@ -76,8 +76,8 @@
     }
     section.rodape{
       background:#020d3f;
-      padding-top:10px;
-      padding-bottom:15px;
+      padding-top:4vh;
+      padding-bottom:4vh;
       font-size: 20pt;
     }
     /*Add o */

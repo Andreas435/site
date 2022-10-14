@@ -2,7 +2,7 @@
 <?php
     session_start();
 ?>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +17,7 @@
             background-image: url("./assets/background1.gif");
             background-size:  100%;
         }
-        * {
-            font-family: 'Raleway', sans-serif;
-        }
+ 
         div#caixa {
             margin-top: 10%;
             background-color: lightblue;
