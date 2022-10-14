@@ -44,7 +44,7 @@
         div#caixa p#erro {
             color: red;
         }
-        
+
         nav {
             display: flex;
             align-items: baseline;
