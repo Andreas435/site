@@ -187,5 +187,6 @@
             </h1>
         </section>
       </section>
+      <audio style="display: none;" src="assets/Music-Home.mp3" type="audio/mpeg" autoplay loop></audio>
 </body>
 </html>
