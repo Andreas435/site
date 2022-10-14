@@ -2,7 +2,7 @@
 <?php
     session_start();
 ?>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +17,9 @@
             background-image: url("./assets/background1.gif");
             background-size:  100%;
         }
-  
+ 
         div#caixa {
-            margin-top: 13%;
+            margin-top: 10%;
             background-color: lightblue;
             font-family: 'Raleway', sans-serif;
             margin-left: 25%;
@@ -43,28 +43,32 @@
             color: red;
         }
 
-
-        nav{
+        nav {
             display: flex;
             align-items: baseline;
             position: relative;
             background:#020d3f;
-    }
-    h3{
-      font-size: x-large;
-      margin-left: 30px;
-    }
-    ul{
-      display: flex;
-      align-items: baseline;
-    }
-    .direita{
-      position: absolute;
-      right: 3%;
-    }
-    a{  text-decoration: none;
-        color:white;
-    }
+        }
+
+        h3 {
+            font-size: x-large;
+            margin-left: 30px;
+        }
+
+        ul {
+            display: flex;
+            align-items: baseline;
+        }
+
+        .direita {
+            position: absolute;
+            right: 3%;
+        }
+
+        nav.bar a {
+            text-decoration: none;
+            color: white;
+        }
     </style>
 </head>
 <body>
