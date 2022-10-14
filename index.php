@@ -51,7 +51,7 @@
       width: 50%;
       color:white;
       background-image: url("./assets/aurelion-sol2.png");
-      height: 500px;
+      height: 65vh;
       background-repeat: no-repeat;
       background-size: 119% ;
     }
