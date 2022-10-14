@@ -17,9 +17,7 @@
             background-image: url("./assets/background1.gif");
             background-size:  100%;
         }
-        *{
-            font-family: 'Ro';
-        }
+  
         div#caixa {
             margin-top: 13%;
             background-color: lightblue;
