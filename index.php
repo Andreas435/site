@@ -60,19 +60,25 @@
       text-align: center;
       width: 33.3%;
       align-items: center;
-      background-color: green;
+      /*background-color: green;*/
     }
     .segunda{
       text-align: center;
       width: 33.3%;
       align-items: center;
-      background-color: crimson;
+      /*background-color: crimson;*/
     }
     .terceira{
       text-align: center;
       width: 33.3%;
       align-items: center;
-      background-color: blue;
+     /* background-color: blue;*/
+    }
+    section.rodape{
+      background:#020d3f;
+      padding-top:10px;
+      padding-bottom:15px;
+      font-size: 20pt;
     }
     /*Add o */
     @keyframes fade-in {
@@ -151,7 +157,6 @@
       </nav>
 
       <section class="conteudo">
-
         <section class="conteudo-1">
             <h3 class="msg-inicio">
               Clique no botao para <br>iniciarmos a jornada
@@ -165,26 +170,37 @@
         <img class="balao" src='./assets/balao.png' width="300px"><!--
         <img class="aurelion" src='./assets/aurelion-sol2.png' width="1000px">-->
         </section>
-
       </section>
       
       <section class="rodape">
         <section class="primeira">
+        <a href="#"> 
             <h1 class="">
-              primeira
+              Sobre
             </h1>
+        </a>
         </section>
         <section class="segunda">
             <h1 class="">
-              segunda
+               
             </h1>
         </section>
         <section class="terceira">
+          <a href="#">  
             <h1 class="">
-            terceira
+              Contato
             </h1>
+          </a>
         </section>
       </section>
-      <audio style="display: none;" src="assets/Music-Home.mp3" type="audio/mpeg" autoplay loop></audio>
+     <!-- <audio controls loop  id="aud" autoplay>
+          <source src="./assets/Music-Home.mp3" type="audio/mpeg" >
+      </audio>
+     <script>
+      $('#aud').get(0).play()
+      document.getElementById("aud").play();
+      document.getElementById("aud")[0].play();
+      
+     </script>-->
 </body>
 </html>
