@@ -60,6 +60,7 @@
             align-items: baseline;
         }
 
+        
         .direita {
             position: absolute;
             right: 3%;
