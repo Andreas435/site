@@ -76,7 +76,9 @@
     }
     section.rodape{
       background:#020d3f;
-      padding-top: 120px;
+      padding-top:10px;
+      padding-bottom:15px;
+      font-size: 20pt;
     }
     /*Add o */
     @keyframes fade-in {
@@ -172,21 +174,33 @@
       
       <section class="rodape">
         <section class="primeira">
+        <a href="#"> 
             <h1 class="">
-              primeira
+              Sobre
             </h1>
+        </a>
         </section>
         <section class="segunda">
             <h1 class="">
-              segunda
+               
             </h1>
         </section>
         <section class="terceira">
+          <a href="#">  
             <h1 class="">
-            terceira
+              Contato
             </h1>
+          </a>
         </section>
       </section>
-      <audio style="display: none;" src="assets/Music-Home.mp3" type="audio/mpeg" autoplay loop></audio>
+     <!-- <audio controls loop  id="aud" autoplay>
+          <source src="./assets/Music-Home.mp3" type="audio/mpeg" >
+      </audio>
+     <script>
+      $('#aud').get(0).play()
+      document.getElementById("aud").play();
+      document.getElementById("aud")[0].play();
+      
+     </script>-->
 </body>
 </html>
