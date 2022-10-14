@@ -8,8 +8,7 @@
         $_SESSION['email'],
         $_SESSION['cargo']
     );
-
     session_destroy();
-
     header("Location: login.php");
+    
 ?>
