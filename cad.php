@@ -60,7 +60,7 @@
             align-items: baseline;
         }
 
-        
+
         .direita {
             position: absolute;
             right: 3%;
@@ -70,6 +70,7 @@
             text-decoration: none;
             color: white;
         }
+        
     </style>
 </head>
 <body>
