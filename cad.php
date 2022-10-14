@@ -15,6 +15,10 @@
     <style>
         body {
             background-image: url("./assets/background1.gif");
+            background-size:  100%;
+        }
+        *{
+            font-family: 'Ro';
         }
         div#caixa {
             margin-top: 13%;
@@ -40,9 +44,51 @@
         div#caixa p#erro {
             color: red;
         }
+
+
+        nav{
+            display: flex;
+            align-items: baseline;
+            position: relative;
+            background:#020d3f;
+    }
+    h3{
+      font-size: x-large;
+      margin-left: 30px;
+    }
+    ul{
+      display: flex;
+      align-items: baseline;
+    }
+    .direita{
+      position: absolute;
+      right: 3%;
+    }
+    a{  text-decoration: none;
+        color:white;
+    }
     </style>
 </head>
 <body>
+<nav class="bar">
+        <ul class="">
+          <h2 class="Home">
+            <a href="index.php">
+              <span>🏠Home Page</span>
+            </a>
+          </h2>
+        </ul>
+         <section class="direita"> 
+          <ul class="right">
+              <h3 class="">
+                <a href="login.php">   </a>
+              </h3>
+              <h3 class="">
+                <a href="cad.php">  📝Cadastro</a>
+              </h3>
+          </ul>
+         </section> 
+      </nav>
     <div align="center" id="caixa">
         <h1>Página de cadastro</h1>
         <p id="erro"><strong><?php
