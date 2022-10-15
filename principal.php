@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title>Biografia do Aurelion Sol</title>
     <link rel="icon" href="./assets/icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +21,7 @@
             background-image: url("./assets/background1.gif");
             background-size: 100%;
         }
+
         nav {
             display: flex;
             align-items: baseline;
@@ -50,6 +51,7 @@
             color: white;
         
         }
+        
         div#caixa {
             background-color: #0768DE;
             color: white;
@@ -143,7 +145,7 @@
         <img src="assets/aurelion-sol2.png" alt="Imagem do Aurelion Sol à esquerda">
       </div>
     <div align="center" id="caixa">
-        <h1>Biografia do Aurelion Sol</h1>
+        <h1>Biografia do Aurelion Sol,</h1>
         <h2>o Forjador de Estrelas</h2>
         <hr>
         <p>O surgimento de um cometa no céu noturno é sinal de transtorno e mal-estar. Diante da presença de tão temíveis presságios, novos impérios surgiam, velhas culturas ruíam e até mesmo as estrelas podiam desaparecer do firmamento...</p>

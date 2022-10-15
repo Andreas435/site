@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title>História do Aurelion Sol</title>
     <link rel="icon" href="./assets/icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +21,7 @@
             background-image: url("./assets/background1.gif");
             background-size: 100%;
         }
+
         nav {
             display: flex;
             align-items: baseline;
@@ -49,6 +50,7 @@
             color: white;
         
         }
+        
         div#caixa {
             background-color: #0768DE;
             color: white;
@@ -143,7 +145,7 @@
         <img src="assets/aurelion-sol2.png" alt="Imagem do Aurelion Sol à esquerda">
       </div>
     <div align="center" id="caixa">
-        <h1>História do Aurelion Sol</h1>
+        <h1>História do Aurelion Sol,</h1>
         <h2>o Forjador de Estrelas</h2>
         <hr>
         <p>O sol familiar deste mundo ainda se esconde atrás do horizonte. Terra bruta e não polida desenrolava-se abaixo. Montanhas contornavam em barreiras que esboçavam dedos nas terras vazias. Palácios, ou ainda, coisas que se passavam por palácios, falhavam em emergir sobre os montes mais baixos. A curvatura do planeta encontrava as estrelas com uma serenidade e graça que poucos dos habitantes abaixo presenciariam. Eles estão tão espalhados ao redor do globo e se agarram tão cegamente em qualquer tipo de entendimento que não é surpresa que eles foram conquistados e sequer compreendiam que estavam em apuros.</p>
