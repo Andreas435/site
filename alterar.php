@@ -7,8 +7,9 @@ for ($i=0; $i < $_SESSION["tam"] ; $i++) {
     $idade[$i] = $_POST['idade-'.$i];
     $cargo[$i] = $_POST['cargo-'.$i];
 }
-
+$id= $_SESSION["id"];
 for ($i=0; $i < $_SESSION["tam"] ; $i++) { 
-    # code...
+    $sql = "UPDATE contas SET Nome = '$nome[$i]', Idade = '$idade[$i]', Cargo = '$cargo[$i]' WHERE id = '$id[$i]'";
 }
+$_SESSION["msg"] = "Dados atualizados";
 ?>

@@ -61,7 +61,8 @@
                     <?php 
                     $i = 0;
                      foreach ($contas  as $conta):
-                      $i++; ?>
+                        $id[$i] = $conta[0] ;
+                       ?>
                     <tr>
                         <td>
                            <input type="text"    name="nome-<?php echo $i; ?>" id="nome-<?php echo $i; ?>" value="<?php echo $conta[1]  ?>">
@@ -76,7 +77,11 @@
                             </select>
                         </td>
                     </tr>
-                   <?php  endforeach; ?> 
+                   <?php 
+                $i++;
+                endforeach;
+                $_SESSION["id"] = $id;
+                ?> 
                 </tbody>
             </table>
         <input type="submit" value="Salvar">

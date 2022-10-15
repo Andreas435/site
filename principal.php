@@ -61,7 +61,7 @@
             padding: 3vh;
         }
 
-        * {
+        *{
             font-family: 'Raleway', sans-serif;
         }
 
