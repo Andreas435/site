@@ -25,7 +25,7 @@
             display: flex;
             align-items: baseline;
             position: relative;
-            
+
             background:#020d3f;
         }
 
@@ -85,15 +85,15 @@
             position: absolute;
             right: 0%;
             top: 30%;
-            height: 45%;
+            height: 70vh;
         }
 
         div#imagemdireita img {
             position: absolute;
             left: -15%;
             top: 30%;
-            height: 40%;
-            width: 43%;
+            height: 60vh;
+            width: 85vh;
             transform: scaleX(-1);
         }
 
@@ -108,6 +108,14 @@
             border-radius: 7px;
             border: solid 2px yellow;
             font-size: 2vh;
+        }
+
+        a#link {
+            position: absolute;
+            font-size: 3vh;
+            color: white;
+            top: 95%;
+            left: 6.5%;
         }
     </style>
 </head>
@@ -158,8 +166,23 @@
         <p>Logo, tão rápido quanto o piscar de olhos de um dragão estelar, o mundo estava infestado de uma sucessão de catástrofes mágicas. Aurelion Sol sabia que Targon e seus malditos Aspectos finalmente estavam indefesos. Enquanto voltava serpenteando, percebeu que a magia que o prendia estava enfraquecendo. Flocos dourados começaram a cair de sua coroa, cruzando os céus como cometas.</p>
         <p>Movido pela tentadora promessa de liberdade e vingança, Aurelion Sol agora espreita Runeterra com uma eterna fúria fervilhante. Certamente será aqui, sobre este mundo, que o equilíbrio cósmico penderá a seu favor uma vez mais, e o universo testemunhará o destino daqueles que ousaram roubar o poder de um forjador de estrelas.</p>
     </div>
+    <audio id="myAudio" >
+  <source src="assets/music2.mp3"  type="audio/mpeg">
+</audio>
+<script>
+   navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        var x = document.getElementById("myAudio"); 
+        x.play();
+         // stop microphone stream acquired by getUserMedia
+         stream.getTracks().forEach(function (track) { track.stop(); });
+     });
+     var gfg = document.getElementById("myAudio");
+      gfg.volume = 0.70;
+   
+</script>
     <div id="botao" align="right">
         <a href="principaldois.php"><input type="button" value="Ler a história do Aurelion Sol" class="bt"></a>
     </div>
+    <a rel="external" target="_blank" href="https://universe.leagueoflegends.com/pt_BR/story/champion/aurelionsol/" id="link">Site oficial do LoL</a>
 </body>
 </html>

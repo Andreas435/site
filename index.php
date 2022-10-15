@@ -164,7 +164,9 @@
               <h3 class="">
                 <a href="cad.php">  &#x1F4DD;Cadastro</a>
               </h3>
-              <?php if( $_SESSION["cargo"]== "adm"){ 
+              <?php 
+              if (isset($_SESSION['cargo']))
+              if( $_SESSION["cargo"]== "adm"){ 
                 echo '
               <h3 class="">
                 <a href="painelAdm.php">  🔑Painel</a>

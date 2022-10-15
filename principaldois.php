@@ -88,12 +88,12 @@
             width: 45vh;
         }
 
-        div#imagemdireita img {
+        div#imgdireita img {
             position: absolute;
             left: -15%;
             top: 30%;
             height: 130vh;
-            width: 85vh;
+            width: 83vh;
             transform: scaleX(-1);
         }
 
@@ -108,6 +108,14 @@
             border-radius: 7px;
             border: solid 2px yellow;
             font-size: 2vh;
+        }
+
+        a#link {
+            position: absolute;
+            font-size: 3vh;
+            color: white;
+            top: 97%;
+            right: 7.5%;
         }
     </style>
 </head>
@@ -136,7 +144,7 @@
       <div align="right" id="imgesquerda">
         <img src="assets/aurelionperfil.png" alt="Imagem do Aurelion Sol à direita">
       </div>
-      <div align="left" id="imagemdireita">
+      <div align="left" id="imgdireita">
         <img src="assets/aurelion-sol2.png" alt="Imagem do Aurelion Sol à esquerda">
       </div>
     <div align="center" id="caixa">
@@ -190,5 +198,20 @@
     <div id="botao" align="left">
         <a href="principal.php"><input type="button" value="Ler a biografia do Aurelion Sol" class="bt"></a>
     </div>
+    <audio id="myAudio" >
+  <source src="assets/music2.mp3"  type="audio/mpeg">
+</audio>
+<script>
+   navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        var x = document.getElementById("myAudio"); 
+        x.play();
+         // stop microphone stream acquired by getUserMedia
+         stream.getTracks().forEach(function (track) { track.stop(); });
+     });
+     var gfg = document.getElementById("myAudio");
+      gfg.volume = 0.70;
+   
+</script>
+    <a rel="external" target="_blank" href="https://universe.leagueoflegends.com/pt_BR/story/aurelionsol-color-story/" id="link">Site oficial do LoL</a>
 </body>
 </html>

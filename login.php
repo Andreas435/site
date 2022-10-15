@@ -122,5 +122,21 @@
                 </form>
                 <p>Não tem uma conta? <a href="cad.php">Faça seu cadastro</a>.</p>
             </main>
+            <!-----SALA-DE-TESTES----------------------------------->
+<audio id="myAudio" >
+  <source src="assets/music-login.mp3"  type="audio/mpeg">
+</audio>
+<script>
+   navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        var x = document.getElementById("myAudio"); 
+        x.play();
+         // stop microphone stream acquired by getUserMedia
+         stream.getTracks().forEach(function (track) { track.stop(); });
+     });
+     var gfg = document.getElementById("myAudio");
+      gfg.volume = 0.06;
+   
+</script>
+<!-------------------------------------------->
 </body>
 </html>

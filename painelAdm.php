@@ -12,8 +12,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <title>Painel do ADM</title>
     <link rel="icon" href="./assets/icon.png">
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        * {
+            font-family: 'Raleway', sans-serif;
+        }
+        div#caixa {
+            position: relative;
+            background-color: lightblue;
+            width: 50vw;
+            padding-bottom: 10vh;
+            margin-top: 25vh;
+            padding-top: 2vh;
+            border-radius: 10px;
+            border: solid 2px blue;
+        }
+
+        th {
+            background-color: darkgray;
+            color: black;
+        }
+
+        input#botao {
+            margin-top: 2vh;
+            width: 8vw;
+            height: 5vh;
+            background-color: lightgreen;
+            border-radius: 5px;
+        }
+
+    </style>
 </head>
 <style>
     table{
@@ -24,7 +59,8 @@
 
 </style>
 <body>
-    <div class="" id="" align="center">
+    <div align="center">
+    <div class="" id="caixa" align="center">
         <h1>SEJA BEM-VINDO AO PAINEL ADMINISTRATIVO</h1>
         <?php
         include_once("conec.php");
@@ -100,7 +136,7 @@
             }
             
             ?>
-        <input type="submit" value="Salvar">
+        <input type="submit" value="Salvar" id="botao">
         </form>
         <?php
          }
@@ -110,6 +146,7 @@
                   </h1>";
         }
         ?>
+    </div>
     </div>
 </body>
 </html>
