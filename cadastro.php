@@ -3,14 +3,13 @@
     session_start();
 
     if (isset($_POST['nome']) && (isset($_POST['idade'])) && (isset($_POST['email'])) && (isset($_POST['senha']))) {
-        $nome = $_POST['nome'];
+        $nome  = $_POST['nome'];
         $idade = $_POST['idade'];
         $email = $_POST['email'];
         $senha = md5($_POST['senha']);
         $mysql = "SELECT * FROM contas WHERE email = '$email'";
         $com = mysqli_query($con, $mysql);
         $re = mysqli_fetch_assoc($com);
-
         if (empty($re)) {
             // Inserindo no banco de dados o novo usuario.
             $comando = "INSERT INTO contas (nome, idade, email, senha) VALUES ('$nome', '$idade', '$email', '$senha')";
@@ -21,10 +20,10 @@
             $res    = mysqli_fetch_assoc($result);
             // Passando as informacoes do ultimo usuario para nossa Session.
             $_SESSION["id"]    = $res["id"]; 
-            $_SESSION["nome"]  = $res["nome"];
-            $_SESSION["idade"] = $res["idade"];
-            $_SESSION["email"] = $res["email"];
-            $_SESSION["cargo"] = $res["cargo"];
+            $_SESSION["nome"]  = $res["Nome"];
+            $_SESSION["idade"] = $res["Idade"];
+            $_SESSION["email"] = $res["Email"];
+            $_SESSION["cargo"] = $res["Cargo"];
             // Reencaminhando o usuario para nossa pagina principal.
             header("Location: principal.php");
         }

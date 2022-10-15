@@ -39,6 +39,8 @@
       background:orange;
       color:white;
       background-image: url("./assets/background1.gif");
+      background-repeat: no-repeat;
+      background-size: 119% ;
     }
     .conteudo-1{
       
