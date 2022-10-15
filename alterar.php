@@ -14,4 +14,5 @@ for ($i=0; $i < $_SESSION["tam"] ; $i++) {
 }
 
 $_SESSION["msg"] = "Dados atualizados";
+header("Location: painelAdm.php");
 ?>
