@@ -1,8 +1,8 @@
 <?php
     session_start();
 
-    if ($_SESSION['Cargo'] != "adm") {
-       // header("Location: login.php");
+    if ($_SESSION['cargo'] != "adm") {
+             header("Location: login.php");
     }
 ?>
 
@@ -61,28 +61,26 @@
                         </th>
 	            	</tr>
                     <?php 
-                    echo "<h1> Tamanho:".$tamanho."</h1>";
-                    echo "<pre>";
-                    print_r($contas);
-                     foreach ($contas  as $conta): ?>
+                     foreach ($contas  as $conta):
+                       ?>
                     <tr>
                         <?php
                         
                         ?>
                         <td>
-                           <input type="text"    name="" id="" value="<?php echo $conta["Nome"]  ?>">
+                           <input type="text"    name="" id="" value="<?php echo $conta[1]  ?>">
                         </td>
                         <td>
-                            <input type="number" name="" id="" value="<?php echo $conta["Idade"] ?>">
+                            <input type="number" name="" id="" value="<?php echo $conta[2] ?>">
                         </td>
                         <td>
-                            <select name="" id="" value="<?php echo $conta["Cargo"] ?>">
-                                <option value="0">Usuario</option>
-                                <option value="1">Adm</option>
+                            <select name="" id="" > 
+                                       <option value="0" <?php  if($conta[5]!="adm"){ echo "selected"; } ?>>usuario </option>
+                                       <option value="1" <?php  if($conta[5]=="adm"){ echo "selected"; } ?>>adm     </option> 
                             </select>
                         </td>
                     </tr>
-                   <?php  endforeach;?> 
+                   <?php  endforeach; ?> 
                 </tbody>
             </table>
         <input type="submit" value="Salvar">
