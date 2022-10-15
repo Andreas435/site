@@ -16,9 +16,10 @@
 </head>
 <body>
     <h1>Página principal</h1>
-    <?php
+    <h1><?php
         echo $_SESSION['nome'];
     ?>
+    </h1>
     <br>
     <a href="sair.php">Sair</a>
 </body>

@@ -21,10 +21,10 @@
             $res    = mysqli_fetch_assoc($result);
             // Passando as informacoes do ultimo usuario para nossa Session.
             $_SESSION["id"]    = $res["id"]; 
-            $_SESSION["nome"]  = $res["nome"];
-            $_SESSION["idade"] = $res["idade"];
-            $_SESSION["email"] = $res["email"];
-            $_SESSION["cargo"] = $res["cargo"];
+            $_SESSION["nome"]  = $res["Nome"];
+            $_SESSION["idade"] = $res["Idade"];
+            $_SESSION["email"] = $res["Email"];
+            $_SESSION["cargo"] = $res["Cargo"];
             // Reencaminhando o usuario para nossa pagina principal.
             header("Location: principal.php");
         }

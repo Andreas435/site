@@ -19,7 +19,7 @@
         }
  
         div#caixa {
-            margin-top: 10%;
+            margin-top: 9.5vh;
             background-color: lightblue;
             font-family: 'Raleway', sans-serif;
             margin-left: 25%;
@@ -87,7 +87,7 @@
                 <a href="login.php">   </a>
               </h3>
               <h3 class="">
-                <a href="cad.php">  📝Cadastro</a>
+                <a href="login.php">👤Login   </a>
               </h3>
           </ul>
          </section> 

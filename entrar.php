@@ -10,10 +10,10 @@
 
         if (isset($res)){
             $_SESSION["id"]    = $res["id"] ; 
-            $_SESSION["nome"]  = $res["nome"];
-            $_SESSION["idade"] = $res["idade"];
-            $_SESSION["email"] = $res["email"];
-            $_SESSION["cargo"] = $res["cargo"];
+            $_SESSION["nome"]  = $res["Nome"];
+            $_SESSION["idade"] = $res["Idade"];
+            $_SESSION["email"] = $res["Email"];
+            $_SESSION["cargo"] = $res["Cargo"];
             if($_SESSION["cargo"] == "administrador"){
                 header("Location: adm.php");
             }

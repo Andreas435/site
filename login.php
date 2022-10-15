@@ -20,20 +20,86 @@
 </head>
 <body>
     <style>
-        .fundo{
-            margin-top: 12%;
-            background-color: skyblue;
-            margin-left: 30%;
-            margin-right: 30%;
-            border: 5px ;
-            border-style: solid;
-            border-color: red;
-            border-radius: 8px;
+          body {
+            background-image: url("./assets/background1.gif");
+            background-size:  100%;
         }
+ 
+        div#caixa {
+            margin-top: 15vh;
+            background-color: lightblue;
+            font-family: 'Raleway', sans-serif;
+            margin-left: 25%;
+            margin-right: 25%;
+            border-radius: 10px;
+            border: 3px solid blue;
+            font-size: 20px;
+        }
+
+        div#caixa input {
+            padding: 12px 20px;
+            width: 225px;
+            margin-top: 10px;
+        }
+
+        div#caixa input#botao {
+            background-color: lightyellow;
+        }
+
+        div#caixa p#erro {
+            color: red;
+        }
+
+        nav {
+            display: flex;
+            align-items: baseline;
+            position: relative;
+            background:#020d3f;
+        }
+
+        h3 {
+            font-size: x-large;
+            margin-left: 30px;
+        }
+
+        ul {
+            display: flex;
+            align-items: baseline;
+        }
+
+        
+        .direita {
+            position: absolute;
+            right: 3%;
+        }
+
+        nav.bar a {
+            text-decoration: none;
+            color: white;
+        }
+
     </style>
-    <div class="fundo" align="center">
-        <div>
-            <h1>Página de login</h1>
+    <nav class="bar">
+        <ul class="">
+          <h2 class="Home">
+            <a href="index.php">
+              <span>🏠Home Page</span>
+            </a>
+          </h2>
+        </ul>
+         <section class="direita"> 
+          <ul class="right">
+              <h3 class="">
+                <a href="login.php">   </a>
+              </h3>
+              <h3 class="">
+                <a href="cad.php">  📝Cadastro</a>
+              </h3>
+          </ul>
+         </section> 
+      </nav>
+    <div align="center" id="caixa">
+                <h1>Página de login</h1>
                 <main>
                  <p>
                     <strong>
@@ -42,19 +108,19 @@
                             echo $_SESSION['msg'];
                             unset($_SESSION['msg']);
                         }
+            
                     ?>
                     </strong>
                 </p>
+                
                 <form method="POST" action="entrar.php">
                     <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
                     <br>
                     <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
                     <br>
-                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Entrar" id="botao">
                 </form>
                 <p>Não tem uma conta? <a href="cad.php">Faça seu cadastro</a>.</p>
             </main>
-        </div>
-    </div>
 </body>
 </html>
