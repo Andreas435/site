@@ -113,6 +113,7 @@
             <br>
             <input type="submit" value="Cadastrar" id="botao">
         </form>
+        
         <p>Já tem uma conta? <a href="login.php">Faça seu login</a>.</p>
     </div>
 </body>
