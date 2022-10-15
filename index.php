@@ -193,7 +193,7 @@
       
       <section class="rodape">
         <section class="primeira">
-        <a href="#"> 
+        <a title="Desenvolvido por: Andreas Cordeiro e Magnus Felinto"> 
             <h1 class="">
               Sobre
             </h1>
@@ -217,7 +217,7 @@
            <p class="version" aling="center">Version Beta</p>
         </section>
         <section class="terceira">
-          <a href="#">  
+          <a href="https://github.com/Andreas435/site" rel="external" target="_blank">  
             <h1 class="">
               Contato
             </h1>
