@@ -32,7 +32,7 @@
         else
             $existe = false;
         if($existe){        ?>
-        <form action="alterar.php">
+        <form action="alterar.php" method="POST">
             <table class="ld-achievements-leaderboard" id="userTbl" bgcolor="#232323">
 	            <tbody>
 	            	<tr bgcolor="#dedede"> 
@@ -61,22 +61,28 @@
                     <?php 
                     $i = 0;
                      foreach ($contas  as $conta):
-                      $i++; ?>
+                        $id[$i] = $conta[0] ;
+                       ?>
                     <tr>
+                    
                         <td>
-                           <input type="text"    name="nome-<?php echo $i; ?>" id="nome-<?php echo $i; ?>" value="<?php echo $conta[1]  ?>">
+                           <input type="text"    name="nome<?php echo $i; ?>" id="nome<?php echo $i; ?>" value="<?php echo $conta[1]  ?>">
                         </td>
                         <td>
-                            <input type="number" name="idade-<?php echo $i; ?>" id="idade-<?php echo $i; ?>" value="<?php echo $conta[2] ?>">
+                            <input type="number" name="idade<?php echo $i; ?>" id="idade<?php echo $i; ?>" value="<?php echo $conta[2] ?>">
                         </td>
                         <td>
-                            <select name="cargo-<?php echo $i; ?>" id="cargo-<?php echo $i; ?>" > 
-                                <option value="0" <?php  if($conta[5]!="adm"){ echo "selected"; } ?>>Usuario </option>
-                                <option value="1" <?php  if($conta[5]=="adm"){ echo "selected"; } ?>>Adm     </option> 
+                            <select name="cargo<?php echo $i; ?>" id="cargo<?php echo $i; ?>" > 
+                                <option value="usuario" <?php  if($conta[5]!="adm"){ echo "selected"; } ?>>Usuario </option>
+                                <option value="adm" <?php  if($conta[5]=="adm"){ echo "selected"; } ?>>Adm     </option> 
                             </select>
                         </td>
                     </tr>
-                   <?php  endforeach; ?> 
+                   <?php 
+                $i++;
+                endforeach;
+                $_SESSION["id"] = $id;
+                ?> 
                 </tbody>
             </table>
         <input type="submit" value="Salvar">

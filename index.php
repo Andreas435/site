@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -154,6 +155,11 @@
               <h3 class="">
                 <a href="cad.php">  &#x1F4DD;Cadastro</a>
               </h3>
+              <?php if( $_SESSION["cargo"]== "adm"){ 
+                echo '
+              <h3 class="">
+                <a href="painelAdm.php">  🔑Painel</a>
+              </h3>'; } ?>
           </ul>
          </section> 
       </nav>
