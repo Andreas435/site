@@ -159,6 +159,9 @@
         <p>“Vou lidar com aqueles terrores medrosos em seu devido tempo, <em>querida</em> Pantheon”.</p>
         <p>“Faça como lhe ordeno, dragão”, isso Pantheon grita, “ou este mundo está perdido”.</p>
         <p>“Este mundo estava perdido no momento em que Targon se rendeu à arrogância”.</p>
+        <p>Sinto Pantheon ebulindo em confusão enquanto ela tenta, com dificuldades, tenta segurar minhas correntes imateriais. Só agora ela está sentindo o que eu vim a descobrir. Targon está distraído e não sente sua magia decrescendo em nosso vínculo.</p>
+        <p>Pantheon berra mais uma vez e, desta vez, não consigo resistir. O encantamento bruto ganha novamente a soberania sobre minha vontade. Volto minha atenção para a fonte da fenda, situada na bacia de um vale que já fora verdejante e que agora está cheio de miasma roxo. Sinto as perversões das Crias do Vazio passando pelo céu da realidade, enviando ondas de energia invisível passando pelo éter. Eles estilhaçaram o véu que separava o nada e a forma com sua passagem indesejada.</p>
+        <p></p>
     </div>
     <div id="botao" align="left">
         <a href="principal.php"><input type="button" value="Ler a biografia do Aurelion Sol" class="bt"></a>
