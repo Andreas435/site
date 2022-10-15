@@ -133,6 +133,11 @@
     </ul>
         <section class="direita"> 
         <ul class="right">
+        <?php if( $_SESSION["cargo"]== "adm"){ 
+                echo '
+              <h3 class="">
+                <a href="painelAdm.php">  🔑Painel</a>
+              </h3>'; } ?>
             <h3 class="">
             <a href="sair.php">&#x1F534;Sair</a>
         </ul>
@@ -195,6 +200,20 @@
     <div id="botao" align="left">
         <a href="principal.php"><input type="button" value="Ler a biografia do Aurelion Sol" class="bt"></a>
     </div>
+    <audio id="myAudio" >
+  <source src="assets/music2.mp3"  type="audio/mpeg">
+</audio>
+<script>
+   navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        var x = document.getElementById("myAudio"); 
+        x.play();
+         // stop microphone stream acquired by getUserMedia
+         stream.getTracks().forEach(function (track) { track.stop(); });
+     });
+     var gfg = document.getElementById("myAudio");
+      gfg.volume = 0.70;
+   
+</script>
     <a rel="external" target="_blank" href="https://universe.leagueoflegends.com/pt_BR/story/aurelionsol-color-story/" id="link">Site oficial do LoL</a>
 </body>
 </html>

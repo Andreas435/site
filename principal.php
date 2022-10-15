@@ -133,6 +133,11 @@
     </ul>
         <section class="direita"> 
         <ul class="right">
+        <?php if( $_SESSION["cargo"]== "adm"){ 
+                echo '
+              <h3 class="">
+                <a href="painelAdm.php">  🔑Painel</a>
+              </h3>'; } ?>
             <h3 class="">
             <a href="sair.php">&#x1F534;Sair</a>
         </ul>
@@ -163,6 +168,20 @@
         <p>Logo, tão rápido quanto o piscar de olhos de um dragão estelar, o mundo estava infestado de uma sucessão de catástrofes mágicas. Aurelion Sol sabia que Targon e seus malditos Aspectos finalmente estavam indefesos. Enquanto voltava serpenteando, percebeu que a magia que o prendia estava enfraquecendo. Flocos dourados começaram a cair de sua coroa, cruzando os céus como cometas.</p>
         <p>Movido pela tentadora promessa de liberdade e vingança, Aurelion Sol agora espreita Runeterra com uma eterna fúria fervilhante. Certamente será aqui, sobre este mundo, que o equilíbrio cósmico penderá a seu favor uma vez mais, e o universo testemunhará o destino daqueles que ousaram roubar o poder de um forjador de estrelas.</p>
     </div>
+    <audio id="myAudio" >
+  <source src="assets/music2.mp3"  type="audio/mpeg">
+</audio>
+<script>
+   navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        var x = document.getElementById("myAudio"); 
+        x.play();
+         // stop microphone stream acquired by getUserMedia
+         stream.getTracks().forEach(function (track) { track.stop(); });
+     });
+     var gfg = document.getElementById("myAudio");
+      gfg.volume = 0.70;
+   
+</script>
     <div id="botao" align="right">
         <a href="principaldois.php"><input type="button" value="Ler a história do Aurelion Sol" class="bt"></a>
     </div>

@@ -50,7 +50,14 @@
 
     </style>
 </head>
+<style>
+    table{
+        background: url("./assets/background-1.png");
+        background-size: 100%;
+    }
 
+
+</style>
 <body>
     <div align="center">
     <div class="" id="caixa" align="center">

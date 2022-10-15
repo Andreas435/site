@@ -69,6 +69,7 @@
       text-align: center;
       width: 33.3%;
       align-items: center;
+      position: relative;
       /*background-color: crimson;*/
     }
     .terceira{
@@ -128,6 +129,14 @@
       border: #000,solid  ;
       border-radius: 8px;
       background-image:  linear-gradient(blue,white);
+    }
+    .version{
+      position: absolute;
+      font-size: smaller;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
     }
     </style>
     <script type="text/javascript" src="">
@@ -191,9 +200,21 @@
         </a>
         </section>
         <section class="segunda">
-            <h1 class="">
-               
-            </h1>
+        
+<!-----SALA-DE-TESTES----------------------------------->
+<audio id="myAudio" >
+  <source src="assets\Music-Home.mp3" type="audio/mpeg">
+</audio>
+<script>
+   navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        var x = document.getElementById("myAudio"); 
+        x.play();
+         // stop microphone stream acquired by getUserMedia
+         stream.getTracks().forEach(function (track) { track.stop(); });
+     });
+</script>
+<!-------------------------------------------->
+           <p class="version" aling="center">Version Beta</p>
         </section>
         <section class="terceira">
           <a href="#">  
