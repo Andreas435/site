@@ -10,6 +10,5 @@ for ($i=0; $i < $_SESSION["tam"] ; $i++) {
 
 for ($i=0; $i < $_SESSION["tam"] ; $i++) { 
     # code...
-    
 }
 ?>
