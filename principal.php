@@ -123,6 +123,11 @@
     </ul>
         <section class="direita"> 
         <ul class="right">
+        <?php if( $_SESSION["cargo"]== "adm"){ 
+                echo '
+              <h3 class="">
+                <a href="painelAdm.php">  🔑Painel</a>
+              </h3>'; } ?>
             <h3 class="">
             <a href="sair.php">&#x1F534;Sair</a>
         </ul>

@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    if ($_SESSION['cargo'] != "Adm") {
+    if ($_SESSION['cargo'] != "adm") {
              header("Location: login.php");
     }
 ?>
@@ -15,9 +15,16 @@
     <title>Painel do ADM</title>
     <link rel="icon" href="./assets/icon.png">
 </head>
+<style>
+    table{
+        background: url("./assets/background-1.png");
+        background-size: 100%;
+    }
 
+
+</style>
 <body>
-    <div class="" id="">
+    <div class="" id="" align="center">
         <h1>SEJA BEM-VINDO AO PAINEL ADMINISTRATIVO</h1>
         <?php
         include_once("conec.php");
