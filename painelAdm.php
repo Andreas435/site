@@ -18,7 +18,7 @@
 
 <body>
     <div class="" id="">
-        <h1>SEJA BEM-VINDO AO PAINEL ADMINISTRAVO</h1>
+        <h1>SEJA BEM-VINDO AO PAINEL ADMINISTRATIVO</h1>
         <?php
         include_once("conec.php");
         $sql = "SELECT * from contas ORDER BY id ASC"; //$selec = "SELECT * FROM usuarios";
@@ -85,6 +85,14 @@
                 ?> 
                 </tbody>
             </table>
+            <?php
+
+            if(isset($_SESSION["msg"])){
+                echo "<h3 >".$_SESSION["msg"]."</h3>";
+                unset($_SESSION['msg']);
+            }
+            
+            ?>
         <input type="submit" value="Salvar">
         </form>
         <?php
