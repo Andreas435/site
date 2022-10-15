@@ -25,7 +25,7 @@
             display: flex;
             align-items: baseline;
             position: relative;
-            
+
             background:#020d3f;
         }
 
@@ -85,15 +85,15 @@
             position: absolute;
             right: 0%;
             top: 30%;
-            height: 45%;
+            height: 70vh;
         }
 
         div#imagemdireita img {
             position: absolute;
             left: -15%;
             top: 30%;
-            height: 40%;
-            width: 43%;
+            height: 60vh;
+            width: 85vh;
             transform: scaleX(-1);
         }
 
@@ -108,6 +108,14 @@
             border-radius: 7px;
             border: solid 2px yellow;
             font-size: 2vh;
+        }
+
+        a#link {
+            position: absolute;
+            font-size: 3vh;
+            color: white;
+            top: 95%;
+            left: 6.5%;
         }
     </style>
 </head>
@@ -156,5 +164,6 @@
     <div id="botao" align="right">
         <a href="principaldois.php"><input type="button" value="Ler a história do Aurelion Sol" class="bt"></a>
     </div>
+    <a rel="external" target="_blank" href="https://universe.leagueoflegends.com/pt_BR/story/champion/aurelionsol/" id="link">Site oficial do LoL</a>
 </body>
 </html>

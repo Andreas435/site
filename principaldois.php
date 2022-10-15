@@ -88,12 +88,12 @@
             width: 45vh;
         }
 
-        div#imagemdireita img {
+        div#imgdireita img {
             position: absolute;
             left: -15%;
             top: 30%;
             height: 130vh;
-            width: 85vh;
+            width: 83vh;
             transform: scaleX(-1);
         }
 
@@ -108,6 +108,14 @@
             border-radius: 7px;
             border: solid 2px yellow;
             font-size: 2vh;
+        }
+
+        a#link {
+            position: absolute;
+            font-size: 3vh;
+            color: white;
+            top: 97%;
+            right: 7.5%;
         }
     </style>
 </head>
@@ -131,7 +139,7 @@
       <div align="right" id="imgesquerda">
         <img src="assets/aurelionperfil.png" alt="Imagem do Aurelion Sol à direita">
       </div>
-      <div align="left" id="imagemdireita">
+      <div align="left" id="imgdireita">
         <img src="assets/aurelion-sol2.png" alt="Imagem do Aurelion Sol à esquerda">
       </div>
     <div align="center" id="caixa">
@@ -185,5 +193,6 @@
     <div id="botao" align="left">
         <a href="principal.php"><input type="button" value="Ler a biografia do Aurelion Sol" class="bt"></a>
     </div>
+    <a rel="external" target="_blank" href="https://universe.leagueoflegends.com/pt_BR/story/aurelionsol-color-story/" id="link">Site oficial do LoL</a>
 </body>
 </html>
