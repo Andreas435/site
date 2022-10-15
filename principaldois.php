@@ -84,22 +84,23 @@
             position: absolute;
             right: 0%;
             top: 30%;
-            height: 45%;
+            height: 130vh;
+            width: 45vh;
         }
 
         div#imagemdireita img {
             position: absolute;
             left: -15%;
             top: 30%;
-            height: 40%;
-            width: 43%;
+            height: 130vh;
+            width: 85vh;
             transform: scaleX(-1);
         }
 
         div#botao input.bt {
             position: absolute;
             left: 5.9%;
-            top: 85%;
+            top: 95%;
             width: 30vh;
             height: 10vh;
             background-color: lightblue;
@@ -161,7 +162,25 @@
         <p>“Este mundo estava perdido no momento em que Targon se rendeu à arrogância”.</p>
         <p>Sinto Pantheon ebulindo em confusão enquanto ela tenta, com dificuldades, tenta segurar minhas correntes imateriais. Só agora ela está sentindo o que eu vim a descobrir. Targon está distraído e não sente sua magia decrescendo em nosso vínculo.</p>
         <p>Pantheon berra mais uma vez e, desta vez, não consigo resistir. O encantamento bruto ganha novamente a soberania sobre minha vontade. Volto minha atenção para a fonte da fenda, situada na bacia de um vale que já fora verdejante e que agora está cheio de miasma roxo. Sinto as perversões das Crias do Vazio passando pelo céu da realidade, enviando ondas de energia invisível passando pelo éter. Eles estilhaçaram o véu que separava o nada e a forma com sua passagem indesejada.</p>
-        <p></p>
+        <p>Eles são atraídos para mim, aquelas abominações de vários olhos. Eles desejam me devorar, a maior de suas ameaças. Dos confins da minha mente, conjurei uma imagem das fornalhas solares que acendi, antes do confinamento injusto de minhas vontades, que incendiou os corações das estrelas. Eu disparo raios de fogo estelar puro e incinerei ondas e ondas de terrores rangentes, levando eles a bater em retirada em sua infinidade oblíqua. Cascas em combustão chovem dos céus. Estou um pouco surpreso de que elas não tenham desintegrado completamente, mas as Crias do Vazio não sabem como as coisas funcionam neste universo.</p>
+        <p>Uma doença pulsante paira no ar. Do epicentro da corrupção, senti uma vontade... faminta e indomável e muito distante da irracionalidade típica cuja qual estou acostumado vindo das aberrações das Crias do Vazio. A ferida pulsante na realidade abre e fecha, distorcendo e mudando tudo o que toca. Seja lá o que for que exista do outro lado, está rindo.</p>
+        <p>Pantheon grita outra ordem para mim, mas ignoro suas palavras. Essa fissura anômala no universo me encanta. Essa não é a primeira do tipo com a qual eu tive que lidar, mas esta parece diferente e não consigo deixar de admirar a maravilhosa e terrível manipulação de barreiras entre os reinos. Poucos seres conseguem compreender suas complexidades, quem dirá possuir a fulgorosa magnitude de poder necessária para rasgar o tecido da existência. No meu coração, conheço uma ferida tão requintada que não poderia ser orquestrada por criaturas rastejantes. Não. Existe mais por trás dessa instrusão. Eu tremo perante o pensamento do tipo de entidade que é capaz de criar um vale tão volátil. Não preciso das ordens ladradas por Pantheon para me dizer o que fazer a seguir; sua coleção de ordens sempre foi de uma imaginação um tanto quanto limitada de qualquer maneira. Ela quer que eu arremesse uma estrela no vale, como se isso fosse simplesmente cauterizar a erosão inter-dimensional e tudo acabar.</p>
+        <p>Esses semi-deuses obtusos são meus captores?</p>
+        <p>Tudo bem. Ao menos eles não estão tão errados em sua “lógica” ao pensar que algumas maravilhas cósmicas remediariam este problema. Vou fazer o papel do servo obediente só mais um pouco.</p>
+        <p>Gosto do que farei a seguir, parcialmente porque eles se lembrarão disso, parcialmente porque é bom liberar um pouco do antigo poder, mas em maior parte porque eu quero lembrar que qualquer inteligência que controla esta incursão do Vazio que ninguém ri de mim em meu plano existencial.</p>
+        <p>Os elementos base na atmosfera vêm para me ajudar, acumulando-se em uma anomalia de plasma. A poeira estelar crescente detona ao meu comando implícito. O resultado é uma réplica anã de uma das minhas glórias majestosas, queimando nos confins do espaço. No fim das contas, eu não posso colocar uma estrela completa neste mundo frágil.</p>
+        <p>A jovem estrela com seu brilho reluzente voa das minhas mãos. Ela se juntou a duas irmãs, sempre ao meu lado. Elas moveram-se inconstantemente ao meu redor em um balé radiante, seus núcleos quentes estavam devorando as nuvens de poeira e matéria que eu trouxe na nossa direção. Nos tornamos uma tempestade de estrelas, o céu da noite encarnado, um giro enlouquecedor de fogo estelar. Eu conjuro redemoinhos de poeira estelar incandescente, exalando um calor tão puro e denso que faz desmoronar bem pouquinho a aura deste mundo, marcando para sempre a curvatura do planeta. Piras de fogo estelar saíam do centro do vale. A gravidade derrete em ondas de cor que a maioria dos olhos jamais seria capaz de enxergar. Minhas estrelas deformam matéria enquanto mais combustível alimenta seus núcleos, fazendo com que elas brilhem e queimem mais. Todo o espetáculo é de tirar o fôlego, uma cascata de luz cegante e calor incandescente, tão quente que por um momento, novos espectros nascem. Minha espinha coça um pouco de tão boa que é a sensação.</p>
+        <p>Árvores se quebram. Rios evaporam. As paredes da montanha do vale são destruídas em avalanches cheias de fumaça. Os trabalhadores incansáveis que estão construindo o Disco Solar, os soldados tomando o desfiladeiro, os observadores de estrelas, os adoradores, os aterrorizados, os profetas dos dias finais, os sem esperança, os reis em ascensão... Todos aqueles que viram o cometa com olhos egoístas presenciaram a supernova como um amanhecer precoce. Por todos os cantos deste globo digno de pena, meu brilho transformou a noite mais escura em um dia cegante. Quais ficções eles conjurarão para explicar este fenômeno?</p>
+        <p>Até mesmo meus mestres targonianos raramente presenciaram tal exibição de meu poder. Certamente, nenhum mundo terrestre já ostentou cicatrizes tão severas quanto as deixadas naquele vale que já fora verdejante. Quando terminei, nada restava.</p>
+        <p>Nem mesmo esta encarnação de Pantheon. Não posso dizer que sentirei falta dela ou de sua gritaria irracional.</p>
+        <p>No resultado brilhante de meu massacre, as montanhas caíram nos escombros fundidos que agora fluíam pelo vale. Esta é a cicatriz que eu deixei neste mundo. Um surto de dor maldita passa pelo meu corpo, saindo daquela coroa infernal. Estou prestes a pagar pelos meus atos.</p>
+        <p>Minha cabeça estala e meus olhos bebem da visão amarga de uma estrela morrendo. Meu coração se fecha. Minha mente vacila. Um sentimento arrebatador de desespero ricochetea na minha alma, emanando de uma tristeza profunda e imediata, como a compreensão pulsante de que você perdeu algo precioso e que sabe que é sua culpa.</p>
+        <p>Algumas formas de vida curiosas que conheci muito tempo atrás um dia me perguntaram como era possível para mim lembrar de cada estrela que já criei. Se eles pudessem ao menos sentir como é criar uma estrela, eles entenderiam a irrelevância fulminante dessa pergunta. É assim que eu sei quando uma das minhas queridas deixa de existir, ejetando jatos de energia e, com eles, substância do meu próprio espírito. Vejo sua morte acontecendo nos céus acima. Ela brilha mais forte por uma última vez em um piroclasto que momentaneamente afoga seus irmãos e irmãs. Meu coração se estilhaça enquanto os céus são reduzidos em uma retribuição brutal por voltar meu poder em alguém de Targon.</p>
+        <p>Um sol é o preço por um único Pantheon. Este é o custo da minha ira desenfreada. Esse é o tipo de feitiçaria grosseira com a qual eu tenho que lidar.</p>
+        <p>Em segundos, eles recuperaram controle das minhas rédeas e me chamaram para uma nova tarefa. Em nenhum outro mundo eu exibi tal liberdade, não importa quão fugaz fosse. O que importava era que eu havia aprendido com meus erros. Um pouco de mim está livre agora e, com o tempo, voltarei a este mundo, tocarei este poço misterioso de energia e reti rarei o resto das minhas amarras.</p>
+        <p>Eu entro em sintonia com aquela essência de guerra, desfigurando e contorcendo com receptáculos de carne espalhados pelo cosmos. Ele não estava feliz por perder seu avatar mortal neste mundo. Um novo hospedeiro já fora escolhido para se transformar na próxima iteração de Pantheon – um soldado dos Rakkor, uma tribo que está junto à base da montanha targoniana, segregando seu poder como cracas. Um dia, conhecerei esta nova encarnação de Pantheon. Talvez ele consiga encontrar uma nova arma e abandone aquela lança ridícula. Sinto a família celestial de Pantheon, espalhada pelo cosmos. Em uma única instância, toda sua atenção é focada neste mundo, onde um de seus Aspectos foi vaporizado por sua própria arma. Sua confusão mistura-se com um desespero crescente enquanto eles lutam entre si para recuperar seu controle sobre mim. Como eu queria poder ver seus rostos.</p>
+        <p>Enquanto me lanço da gravidade deste mundo, essa Runeterra, sinto uma emoção que nunca senti de Targon antes.</p>
+        <p>Temor.</p>
     </div>
     <div id="botao" align="left">
         <a href="principal.php"><input type="button" value="Ler a biografia do Aurelion Sol" class="bt"></a>

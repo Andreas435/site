@@ -25,6 +25,7 @@
             display: flex;
             align-items: baseline;
             position: relative;
+            
             background:#020d3f;
         }
 
@@ -111,12 +112,49 @@
     </style>
 </head>
 <body>
-    <h1>Página principal</h1>
-    <h1><?php
-        echo $_SESSION['nome'];
-    ?>
-    </h1>
-    <br>
-    <a href="sair.php">Sair</a>
+<body class="loaded"> 
+    <nav class="bar">
+    <ul class="">
+        <h2 class="Home">
+        <a href="index.php">
+            <span>&#x1F3E0;Home Page</span>
+        </a>
+        </h2>
+    </ul>
+        <section class="direita"> 
+        <ul class="right">
+            <h3 class="">
+            <a href="sair.php">&#x1F534;Sair</a>
+        </ul>
+        </section> 
+      </nav>
+      <div align="right" id="imgesquerda">
+        <img src="assets/aurelionperfil.png" alt="Imagem do Aurelion Sol à direita">
+      </div>
+      <div align="left" id="imagemdireita">
+        <img src="assets/aurelion-sol2.png" alt="Imagem do Aurelion Sol à esquerda">
+      </div>
+    <div align="center" id="caixa">
+        <h1>Biografia do Aurelion Sol</h1>
+        <h2>o Forjador de Estrelas</h2>
+        <hr>
+        <p>O surgimento de um cometa no céu noturno é sinal de transtorno e mal-estar. Diante da presença de tão temíveis presságios, novos impérios surgiam, velhas culturas ruíam e até mesmo as estrelas podiam desaparecer do firmamento...</p>
+        <p>Porém, a verdade pode ser ainda mais inquietante.</p>
+        <p>A toda-poderosa criatura conhecida como Aurelion Sol já era imemorial antes mesmo do surgimento dos mortais em Runeterra. Nascido durante o primeiro sopro da criação, ele e seus semelhantes vagavam pelo imenso vazio de um intocado reino celestial, buscando pintar sobre essa tela de caos incalculável, repleta de maravilhas cujos espectros cintilantes certamente podiam trazer júbilo e deleite a todos que as testemunhassem.</p>
+        <p>Enquanto vagava, Aurelion Sol ocasionalmente encontrava algum de seus iguais. Os Aspectos eternos eram seres impassíveis e indiferentes, contribuíam pouco para a própria existência e se contentavam em projetar filosofias egocêntricas sobre a natureza da criação.</p>
+        <p>Em uma de suas viagens, ele foi banhado pela luz de um sol bastante comum que havia criado há eras, e então descobriu algo. Um mundo. Novos reinos.</p>
+        <p>Ele não tinha noção de quem havia criado tal mundo ou o porquê, mas sabia que não era de sua autoria.</p>
+        <p>Os Aspectos, que pareciam estranhamente interessados naquele mundo, suplicaram que ele se aproximasse. Lá, havia vida, bem como magia. As civilizações que ali surgiam imploravam por ensinamentos de entidades superiores. Sentindo-se adorado por esse novo público em razão de sua suprema majestade, Aurelion Sol desceu para desfrutar dos cortejos que as criaturas o proporcionavam, tomando a forma de um terrível e gigantesco dragão das estrelas.</p>
+        <p>Os minúsculos habitantes da insignificante terra de Targon deram a ele tal nome em homenagem à luz dourada do sol que ele mesmo havia presenteado. Os Aspectos ordenaram aos humanos que trouxessem uma oferenda apropriada à graça que Aurelion Sol os havia concedido. Os mortais subiram ao topo da montanha mais alta e ofertaram a ele uma coroa esplêndida, forjada com magia hábil e cautelosa, gravada com padrões inimagináveis do reino celestial.</p>
+        <p>No momento em que ela tocou a testa de Aurelion Sol, ele soube que aquilo não era um presente.</p>
+        <p>O artefato amaldiçoado fixou-se em sua cabeça com uma força inimaginável, tornando-se impossível de remover. O dragão podia sentir seu conhecimento do sol e suas criações sendo roubados e analisados pelas inteligências infinitamente inferiores à sua. O maior agravante foi que o poder da coroa o lançou de volta aos céus, impedindo-o de se aproximar daquele mundo novamente.</p>
+        <p>Sem ter escolha, ele foi forçado a assistir aos traiçoeiros Aspectos de Targon ordenando aos humanos que construíssem um grande disco brilhante. Com esse objeto, eles canalizaram os poderes celestiais de Aurelion Sol para ascender como deuses-guerreiros destinados a algum conflito desconhecido que aparentemente ainda estava por vir.</p>
+        <p>Enfurecido, ele podia vislumbrar outras estrelas esmorecendo no firmamento pela falta de cuidado e preservação enquanto tentava, sem sucesso, se livrar do controle da coroa. Era ele o criador daquelas luzes no universo! Por que, então, deveria permanecer ali, acorrentado pelos Aspectos e seus servos inferiores? Ele rugiu de alegria quando o Disco Solar falhou... no entanto, um segundo disco, ainda mais forte, logo surgiu para substituir o primeiro. Por fim, conformado com seu destino, viu que os deuses-guerreiros aniquilavam seus rivais, depois barulhentas criaturas da mais pura escuridão, e então uns aos outros.</p>
+        <p>Logo, tão rápido quanto o piscar de olhos de um dragão estelar, o mundo estava infestado de uma sucessão de catástrofes mágicas. Aurelion Sol sabia que Targon e seus malditos Aspectos finalmente estavam indefesos. Enquanto voltava serpenteando, percebeu que a magia que o prendia estava enfraquecendo. Flocos dourados começaram a cair de sua coroa, cruzando os céus como cometas.</p>
+        <p>Movido pela tentadora promessa de liberdade e vingança, Aurelion Sol agora espreita Runeterra com uma eterna fúria fervilhante. Certamente será aqui, sobre este mundo, que o equilíbrio cósmico penderá a seu favor uma vez mais, e o universo testemunhará o destino daqueles que ousaram roubar o poder de um forjador de estrelas.</p>
+    </div>
+    <div id="botao" align="right">
+        <a href="principaldois.php"><input type="button" value="Ler a história do Aurelion Sol" class="bt"></a>
+    </div>
 </body>
 </html>

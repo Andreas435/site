@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    if ($_SESSION['cargo'] != "adm") {
+    if ($_SESSION['cargo'] != "Adm") {
              header("Location: login.php");
     }
 ?>

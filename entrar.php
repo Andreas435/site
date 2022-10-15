@@ -14,8 +14,8 @@
             $_SESSION["idade"] = $res["Idade"];
             $_SESSION["email"] = $res["Email"];
             $_SESSION["cargo"] = $res["Cargo"];
-            if($_SESSION["cargo"] == "administrador"){
-                header("Location: adm.php");
+            if($_SESSION["cargo"] == "Adm"){
+                header("Location: painelAdm.php");
             }
             else{
                 header("Location: principal.php");
