@@ -142,17 +142,17 @@
         <ul class="">
           <h2 class="Home">
             <a href="index.php">
-              <span>🏠Home Page</span>
+              <span>&#x1F3E0;Home Page</span>
             </a>
           </h2>
         </ul>
          <section class="direita"> 
           <ul class="right">
               <h3 class="">
-                <a href="login.php">👤Login   </a>
+                <a href="login.php">&#x1F464;Login   </a>
               </h3>
               <h3 class="">
-                <a href="cad.php">  📝Cadastro</a>
+                <a href="cad.php">  &#x1F4DD;Cadastro</a>
               </h3>
           </ul>
          </section> 

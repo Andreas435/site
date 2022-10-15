@@ -70,8 +70,6 @@
             text-decoration: none;
             color: white;
         }
-
-        
     </style>
 </head>
 <body>
@@ -79,7 +77,7 @@
         <ul class="">
           <h2 class="Home">
             <a href="index.php">
-              <span>🏠Home Page</span>
+              <span>&#x1F3E0;Home Page</span>
             </a>
           </h2>
         </ul>
