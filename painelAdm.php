@@ -51,14 +51,49 @@
     </style>
 </head>
 <style>
-    table{
-        background: url("./assets/background-1.png");
-        background-size: 100%;
+    nav{
+      display: flex;
+      align-items: baseline;
+      position: relative;
+      background:#020d3f;
     }
-
-
+    h5{
+      font-size: x-large;
+      margin-left: 30px;
+    }
+    ul{
+      display: flex;
+      align-items: baseline;
+    }
+    .direita{
+      position: absolute;
+      right: 3%;
+    }
+    a{  text-decoration: none;
+    color:white;
+    }
 </style>
-<body>
+<body> 
+    <nav class="bar">
+        <ul class="">
+          <h2 class="Home">
+            <a href="index.php">
+              <span>&#x1F3E0;Home Page</span>
+            </a>
+          </h2>
+        </ul>
+         <section class="direita"> 
+          <ul class="right">
+              <h5 class="">
+                <a href="principal.php">    &#x1F4D6;Biografia  </a>
+              </h5>
+              <h5 class="">
+                <a href="principaldois.php">&#x1F4D6;Historia  </a>
+              </h5>
+          
+          </ul>
+         </section> 
+      </nav>
     <div align="center">
     <div class="" id="caixa" align="center">
         <h1>SEJA BEM-VINDO AO PAINEL ADMINISTRATIVO</h1>
